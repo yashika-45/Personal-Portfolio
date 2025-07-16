@@ -995,3 +995,12 @@ body.dark-theme .navbar-toggler span {
   height: 100%;
   object-fit: cover;
 }
+/* Dark theme override for project cards */
+body.dark-theme .project-card-view {
+  background-color: #2b2b3c !important; /* dark card background */
+  color: #f5f5f5 !important;           /* light text for contrast */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6) !important;
+}
+body.dark-theme .project-image {
+  box-shadow: 0 4px 15px rgba(144, 23, 191, 0.4);
+}
