@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import fakenews from "../../Assets/Projects/fakenews.png";
 import digit from "../../Assets/Projects/digit.jpg";
 import editor from "../../Assets/Projects/codeeditor.png";
-import disk from "../../Assets/Projects/disk.jpg";
+import algoviz from "../../Assets/Projects/algoviz.png";
 import compiler from "../../Assets/Projects/compiler.png";
 
 function Projects() {
@@ -22,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={disk}
+              imgPath={algoviz}
               isBlog={false}
               title={<strong>AlgoViz</strong>}
               description="AlgoViz is a React-based tool to simulate and compare disk scheduling algorithms like FCFS, SSTF, SCAN, LOOK and Page Replacement Algorithms like FIFO, LRU, Optimal. It visually represents disk head movements and request servicing order. The app helps users understand algorithm efficiency through interactive animations and stats."
