@@ -24,9 +24,9 @@ function Projects() {
             <ProjectCard
               imgPath={disk}
               isBlog={false}
-              title={<strong>Disk Simulator</strong>}
-              description="Disk Scheduling Visualizer is a React-based tool to simulate and compare disk scheduling algorithms like FCFS, SSTF, SCAN, and LOOK. It visually represents disk head movements and request servicing order. The app helps users understand algorithm efficiency through interactive animations and stats."
-              ghLink="https://github.com/yashika-45/PBL-OS"
+              title={<strong>AlgoViz</strong>}
+              description="AlgoViz is a React-based tool to simulate and compare disk scheduling algorithms like FCFS, SSTF, SCAN, LOOK and Page Replacement Algorithms like FIFO, LRU, Optimal. It visually represents disk head movements and request servicing order. The app helps users understand algorithm efficiency through interactive animations and stats."
+              ghLink="https://github.com/yashika-45/Disk-Visualizer-"
               liveLink="https://disk-visualizer.vercel.app/"
             />
           </Col>
