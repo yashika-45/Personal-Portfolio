@@ -7,6 +7,7 @@ import digit from "../../Assets/Projects/digit.jpg";
 import editor from "../../Assets/Projects/codeeditor.png";
 import algoviz from "../../Assets/Projects/algoviz.png";
 import compiler from "../../Assets/Projects/compiler.png";
+import library from "../../Assets/Projects/library.png";
 
 function Projects() {
   return (
@@ -58,6 +59,17 @@ function Projects() {
               title={<strong>Fake News Detection</strong>}
               description="A machine learning–powered Fake News Detection system built using Python and Flask. It analyzes news text to classify whether it's real or fake, leveraging natural language processing and trained ML models for accurate predictions."
               ghLink="https://github.com/yashika-45/Fake-News-Predictor"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={library}
+              isBlog={false}
+              title={<strong>Library Management</strong>}
+              description="A web based Library management system which efficiently implements Trie data structure for searching books along with add,borrow and return books functionality.It uses local storage for storing book data."
+              ghLink="https://github.com/yashika-45/Library-Management-System"
+              liveLink="https://yashika-45.github.io/Library-Management-System/"            
             />
           </Col>
 
