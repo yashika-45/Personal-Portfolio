@@ -7,7 +7,7 @@ import digit from "../../Assets/Projects/digit.jpg";
 import editor from "../../Assets/Projects/codeeditor.png";
 import algoviz from "../../Assets/Projects/algoviz.png";
 import compiler from "../../Assets/Projects/compiler.png";
-import library from "../../Assets/Projects/library.png";
+import library from "../../Assets/Projects/library.jpg";
 
 function Projects() {
   return (
